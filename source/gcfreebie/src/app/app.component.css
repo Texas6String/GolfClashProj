@@ -1,0 +1,22 @@
+@font-face {
+    font-family: lucky;
+    src: url(../assets/fonts/luckiest-guy-latin-400.woff2);
+}
+
+
+
+.menuname {
+
+    color: green;
+    font-family: lucky;
+    
+    
+}
+
+.const-banner {
+    
+    font-family: lucky;
+    font-size: 20pt;
+    text-align: center;
+    margin: 20px;
+}
