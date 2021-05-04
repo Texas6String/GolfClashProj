@@ -1,0 +1,11 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Machette,RoughIron,1,0,0,82,20,0,50,10,1,0,0,17.08,44,0,0
+Machette,RoughIron,2,1600,4,82,20,10,56,10,1.5,0,0,21.45,44,4,1600
+Machette,RoughIron,3,2700,10,85,40,10,56,23,1.5,0,0,28.76,44,14,4300
+Machette,RoughIron,4,4300,20,85,53,10,72,23,1.7,0,0,34.16,44,34,8600
+Machette,RoughIron,5,6400,50,91,60,10,72,23,2.2,0,0,41.96,44,84,15000
+Machette,RoughIron,6,9200,100,91,60,21,78,43,2.2,0,0,43.84,44,184,24200
+Machette,RoughIron,7,13000,200,98,80,21,84,43,2.2,0,0,52.70,44,384,37200
+Machette,RoughIron,8,17000,400,98,80,36,84,57,2.4,0,0,55.89,44,784,54200
+Machette,RoughIron,9,22000,1000,101,94,36,100,57,2.4,0,0,61.61,44,1784,76200
+Machette,RoughIron,10,28000,2000,101,94,42,100,71,2.9,0,0,65.83,44,3784,104200

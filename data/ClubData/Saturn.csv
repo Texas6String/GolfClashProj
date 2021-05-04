@@ -1,0 +1,11 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Saturn,LongIron,1,0,0,115,20,20,30,50,1.7,0,0,18.56,21,0,0
+Saturn,LongIron,2,4300,4,115,20,20,35,60,2.2,0,0,26.12,21,4,4300
+Saturn,LongIron,3,6400,10,115,35,26,35,60,2.5,0,0,32.76,21,14,10700
+Saturn,LongIron,4,9200,20,119,35,26,45,60,2.7,0,0,40.18,21,34,19900
+Saturn,LongIron,5,13000,50,119,35,37,61,65,2.7,0,0,43.63,21,84,32900
+Saturn,LongIron,6,17000,100,119,51,37,71,65,2.9,0,0,51.26,21,184,49900
+Saturn,LongIron,7,22000,200,120,51,48,71,65,3.4,0,0,58.07,21,384,71900
+Saturn,LongIron,8,28000,400,120,51,66,82,65,3.4,0,0,60.27,21,784,99900
+Saturn,LongIron,9,35000,1000,124,56,66,82,65,3.7,0,0,67.90,21,1784,134900
+Saturn,LongIron,10,43000,2000,124,56,66,92,81,3.9,0,0,73.13,21,3784,177900

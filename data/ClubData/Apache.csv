@@ -1,0 +1,10 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Apache,ShortIron,1,0,0,84,0,28,0,25,1.5,0,0,12.66,26,0,0
+Apache,ShortIron,2,100,4,84,4,43,0,25,2,0,0,21.39,26,4,100
+Apache,ShortIron,3,340,10,85,17,43,10,25,2,0,0,26.15,26,14,440
+Apache,ShortIron,4,800,20,89,17,43,10,41,2.1,0,0,30.10,26,34,1240
+Apache,ShortIron,5,1600,50,89,27,51,25,41,2.1,0,0,35.15,26,84,2840
+Apache,ShortIron,6,2700,100,90,27,51,25,57,2.7,0,0,43.54,26,184,5540
+Apache,ShortIron,7,4300,200,90,32,77,36,57,2.7,0,0,48.79,26,384,9840
+Apache,ShortIron,8,6400,400,90,32,100,36,84,2.9,0,0,53.66,26,784,16240
+Apache,ShortIron,9,25000,1000,90,55,100,55,90,3.5,0,0,68.82,26,1784,41240

@@ -1,0 +1,9 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Horizon,Wood,1,0,0,170,0,74,0,40,3.1,229.5,263.5,34.49,10,0,0
+Horizon,Wood,2,100,4,171,0,74,11,40,3.7,230.8,265.0,40.92,10,4,100
+Horizon,Wood,3,340,10,173,12,74,11,58,3.7,233.6,268.1,47.62,10,14,440
+Horizon,Wood,4,800,20,173,12,94,11,64,4.1,233.6,277.5,52.57,10,34,1240
+Horizon,Wood,5,1600,50,173,31,94,24,64,4.3,233.6,277.5,59.50,10,84,2840
+Horizon,Wood,6,2700,100,178,31,100,31,64,4.3,240.3,288.4,67.40,10,184,5540
+Horizon,Wood,7,4300,200,178,45,100,31,85,4.5,240.3,288.4,73.47,10,384,9840
+Horizon,Wood,8,50000,400,179,65,100,50,90,4.7,241.6,290.0,83.25,10,784,59840

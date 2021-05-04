@@ -1,0 +1,9 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Cataclysm,Wood,1,0,0,175,30,50,50,73,2.4,236.2,259.9,51.02,16,0,0
+Cataclysm,Wood,2,55000,4,176,47,50,50,84,2.4,237.6,261.4,56.77,16,4,55000
+Cataclysm,Wood,3,70000,10,180,47,50,56,84,2.8,243,267.3,65.02,16,14,125000
+Cataclysm,Wood,4,87500,20,180,47,63,56,100,3,243,273.6,69.10,16,34,212500
+Cataclysm,Wood,5,107500,50,180,60,71,56,100,3.6,243,277.5,76.03,16,84,320000
+Cataclysm,Wood,6,130000,100,180,60,85,76,100,3.8,243,284.3,81.61,16,184,450000
+Cataclysm,Wood,7,155000,200,180,80,93,76,100,4.3,243,288.2,89.35,16,384,605000
+Cataclysm,Wood,8,1000000,400,180,90,100,85,100,4.3,243,291.6,93.40,16,784,1605000

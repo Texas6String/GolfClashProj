@@ -1,0 +1,10 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Razor,RoughIron,1,0,0,97,100,0,10,0,3.1,0,0,58.00,46,0,0
+Razor,RoughIron,2,9200,4,104,100,0,28,0,3.3,0,0,62.89,46,4,9200
+Razor,RoughIron,3,13000,10,104,100,11,28,7,3.8,0,0,67.40,46,14,22200
+Razor,RoughIron,4,17000,20,107,100,11,40,29,3.8,0,0,69.74,46,34,39200
+Razor,RoughIron,5,22000,50,107,100,28,46,44,3.8,0,0,72.07,46,84,61200
+Razor,RoughIron,6,28000,100,111,100,28,66,44,4.2,0,0,76.98,46,184,89200
+Razor,RoughIron,7,35000,200,121,100,34,66,60,4.2,0,0,82.46,46,384,124200
+Razor,RoughIron,8,43000,400,129,100,53,73,60,4.2,0,0,88.09,46,784,167200
+Razor,RoughIron,9,250000,1000,131,100,55,85,70,4.2,0,0,89.83,46,1784,417200

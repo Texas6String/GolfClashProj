@@ -1,0 +1,11 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Backbone,LongIron,1,0,0,118,30,10,15,15,1.5,0,0,15.64,19,0,0
+Backbone,LongIron,2,340,4,118,40,10,30,15,1.7,0,0,23.06,19,4,340
+Backbone,LongIron,3,800,10,119,40,10,30,30,2,0,0,28.20,19,14,1140
+Backbone,LongIron,4,1600,20,119,50,10,35,30,2.5,0,0,37.26,19,34,2740
+Backbone,LongIron,5,2700,50,119,66,21,35,35,2.5,0,0,40.71,19,84,5440
+Backbone,LongIron,6,4300,100,120,66,21,51,35,2.9,0,0,49.51,19,184,9740
+Backbone,LongIron,7,6400,200,120,76,39,51,41,2.9,0,0,51.81,19,384,16140
+Backbone,LongIron,8,9200,400,123,76,39,56,41,3.4,0,0,61.12,19,784,25340
+Backbone,LongIron,9,13000,1000,127,82,39,67,41,3.4,0,0,67.52,19,1784,38340
+Backbone,LongIron,10,17000,2000,127,92,39,67,57,3.6,0,0,72.74,19,3784,55340

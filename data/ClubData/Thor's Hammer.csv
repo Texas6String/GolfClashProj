@@ -1,0 +1,11 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Thor's Hammer,Driver,1,0,0,190,50,0,0,12,2,256.5,256.5,7.05,7,0,0
+Thor's Hammer,Driver,2,100,4,190,70,9,9,12,2,256.5,261.1,10.85,7,4,100
+Thor's Hammer,Driver,3,340,10,192,70,9,9,26,2.4,259.2,263.9,14.76,7,14,440
+Thor's Hammer,Driver,4,800,20,198,76,9,26,26,2.4,267.3,272.1,23.17,7,34,1240
+Thor's Hammer,Driver,5,1600,50,198,76,18,26,30,3.1,267.3,276.9,25.86,7,84,2840
+Thor's Hammer,Driver,6,2700,100,202,83,18,52,30,3.1,272.7,282.5,32.50,7,184,5540
+Thor's Hammer,Driver,7,4300,200,204,83,18,52,44,3.6,275.4,285.3,36.56,7,384,9840
+Thor's Hammer,Driver,8,6400,400,204,83,23,52,54,4.2,275.4,288.1,38.92,7,784,16240
+Thor's Hammer,Driver,9,9200,1000,206,83,37,70,54,4.2,278.1,298.7,44.24,7,1784,25440
+Thor's Hammer,Driver,10,13000,2000,211,90,37,98,54,4.2,284.8,305.9,52.14,7,3784,38440

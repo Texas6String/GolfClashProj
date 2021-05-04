@@ -1,0 +1,9 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Kingfisher,ShortIron,1,0,0,79,65,15,50,17,2.3,0,0,38.81,27,0,0
+Kingfisher,ShortIron,2,340,4,79,69,15,50,40,2.7,0,0,44.75,27,4,340
+Kingfisher,ShortIron,3,800,10,79,83,15,50,57,2.8,0,0,48.84,27,14,1140
+Kingfisher,ShortIron,4,1600,20,79,88,15,61,57,3.4,0,0,59.20,27,34,2740
+Kingfisher,ShortIron,5,2700,50,79,88,42,61,75,3.6,0,0,64.47,27,84,5440
+Kingfisher,ShortIron,6,4300,100,79,88,42,67,100,4,0,0,70.52,27,184,9740
+Kingfisher,ShortIron,7,6400,200,83,94,42,67,100,4.4,0,0,79.53,27,384,16140
+Kingfisher,ShortIron,8,100000,400,84,100,42,90,100,4.7,0,0,88.70,27,784,116140

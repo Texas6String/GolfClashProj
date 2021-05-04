@@ -1,0 +1,9 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Boomerang,Wedge,1,0,0,39,45,30,79,64,2.2,0,0,38.58,36,0,0
+Boomerang,Wedge,2,1600,4,41,45,30,79,83,2.4,0,0,41.75,36,4,1600
+Boomerang,Wedge,3,2700,10,41,54,30,95,83,2.5,0,0,46.71,36,14,4300
+Boomerang,Wedge,4,4300,20,42,54,47,95,83,3,0,0,55.01,36,34,8600
+Boomerang,Wedge,5,6400,50,42,70,47,100,100,3,0,0,61.89,36,84,15000
+Boomerang,Wedge,6,9200,100,44,70,57,100,100,3.6,0,0,70.81,36,184,24200
+Boomerang,Wedge,7,13000,200,45,86,57,100,100,3.9,0,0,81.45,36,384,37200
+Boomerang,Wedge,8,150000,400,45,98,60,100,100,4.2,0,0,90.28,36,784,187200

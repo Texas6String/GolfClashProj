@@ -1,0 +1,9 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Grim Reaper,LongIron,1,0,0,125,30,0,40,60,2.4,0,0,39.05,18,0,0
+Grim Reaper,LongIron,2,100,4,125,30,12,40,66,3,0,0,46.62,18,4,100
+Grim Reaper,LongIron,3,340,10,125,42,12,58,66,3.2,0,0,55.04,18,14,440
+Grim Reaper,LongIron,4,800,20,125,60,12,70,72,3.2,0,0,61.34,18,34,1240
+Grim Reaper,LongIron,5,1600,50,125,60,12,83,91,3.4,0,0,67.32,18,84,2840
+Grim Reaper,LongIron,6,2700,100,126,60,12,100,91,3.8,0,0,76.32,18,184,5540
+Grim Reaper,LongIron,7,4300,200,126,81,28,100,98,3.8,0,0,80.87,18,384,9840
+Grim Reaper,LongIron,8,50000,400,128,90,40,100,100,4,0,0,86.69,18,784,59840

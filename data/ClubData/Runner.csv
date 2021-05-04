@@ -1,0 +1,11 @@
+ClubName,ClubType,Level,UpgradeCost,UpgradeCards,Power,Accuracy,TopSpin,BackSpin,Curl,BallGuide,Distance,DistanceTS,Score,ClubKey,TotalCards,TotalCost
+Runner,ShortIron,1,0,0,75,20,90,0,10,1.2,0,0,13.00,28,0,0
+Runner,ShortIron,2,1600,4,75,24,90,0,31,1.5,0,0,17.66,28,4,1600
+Runner,ShortIron,3,2700,10,75,24,97,9,31,1.9,0,0,24.85,28,14,4300
+Runner,ShortIron,4,4300,20,78,24,97,9,38,2.2,0,0,30.71,28,34,8600
+Runner,ShortIron,5,6400,50,80,36,97,9,38,2.4,0,0,37.01,28,84,15000
+Runner,ShortIron,6,9200,100,80,45,97,23,46,2.4,0,0,40.91,28,184,24200
+Runner,ShortIron,7,13000,200,81,53,97,23,46,2.9,0,0,49.61,28,384,37200
+Runner,ShortIron,8,17000,400,82,53,97,23,68,3.2,0,0,54.13,28,784,54200
+Runner,ShortIron,9,22000,1000,82,66,97,28,83,3.2,0,0,57.48,28,1784,76200
+Runner,ShortIron,10,28000,2000,82,66,97,37,90,3.7,0,0,65.26,28,3784,104200
