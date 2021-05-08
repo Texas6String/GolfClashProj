@@ -10,6 +10,7 @@ import { UnderconstructionComponent } from './underconstruction/underconstructio
 import { SurvivalComponent } from './survival/survival.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { ToolsComponent } from './tools/tools.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
@@ -20,11 +21,15 @@ import { ToolsComponent } from './tools/tools.component';
     UnderconstructionComponent,
     SurvivalComponent,
     ClubsComponent,
-    ToolsComponent
+    ToolsComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+
+      { path: '', redirectTo: '/welcome', pathMatch: 'full' },
+      { path: 'welcome', component: WelcomeComponent},
       { path: 'home', component: HomeComponent},
       { path: 'about', component: AboutComponent},
       { path: 'tools', component: ToolsComponent},
