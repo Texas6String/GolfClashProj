@@ -2,6 +2,7 @@ import { componentFactoryName } from '@angular/compiler';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -11,6 +12,10 @@ import { SurvivalComponent } from './survival/survival.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { ToolsComponent } from './tools/tools.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ClubDisplayComponent } from './club-display/club-display.component';
+import { ClubPickerComponent } from './club-picker/club-picker.component';
+
+import {clubService} from './shared/shared.service';
 
 
 @NgModule({
@@ -22,10 +27,13 @@ import { WelcomeComponent } from './welcome/welcome.component';
     SurvivalComponent,
     ClubsComponent,
     ToolsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ClubDisplayComponent,
+    ClubPickerComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
 
       { path: '', redirectTo: '/welcome', pathMatch: 'full' },
