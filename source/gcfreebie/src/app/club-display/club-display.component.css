@@ -1,0 +1,8 @@
+.club-display-icon
+{
+
+    width: 50px;
+    height: 50px;
+    background-image: url("../../assets/images/club-icon-bg-common.png");
+    background-size: 50px;
+}

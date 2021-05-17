@@ -1,0 +1,9 @@
+[
+{"ClubType": "Driver", "DisplayName": "Driver"},
+{"ClubType": "Wood", "DisplayName": "Wood"},
+{"ClubType": "LongIron", "DisplayName": "Long Iron"}, 
+{"ClubType": "ShortIron", "DisplayName": "Short Iron"},
+{"ClubType": "Wedge", "DisplayName": "Wedge"},
+{"ClubType": "RoughIron", "DisplayName": "Rough Iron"},
+{"ClubType": "SandWedge", "DisplayName": "Sand Wedge"}
+]

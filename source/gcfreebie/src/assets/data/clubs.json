@@ -1,0 +1,98 @@
+
+[
+    {
+    "ClubType": "Driver",
+    "Clubs": [
+        "BeginnerDriver",
+        "Rocket",
+        "ExtraMile",
+        "BigTopper",
+        "Quarterback",
+        "Rock",
+        "ThorsHammer",
+        "Apocalypse"
+        ]
+    },
+    {    
+        "ClubType": "Wood",
+        "Clubs": [
+            "BeginnerWood",           
+            "Horizon",
+            "Viper",
+            "BigDawg",
+            "Hammerhead",
+            "Guardian",
+            "Sniper",
+            "Cataclysm"
+        ]
+    },
+    {    
+    "ClubType": "LongIron",
+    "Clubs": [
+
+            "BeginnerLongIron",
+            "GrimReaper",
+            "Backbone",
+            "Goliath",
+            "Saturn",
+            "B52",
+            "Grizzly",
+            "Tsunami"
+        ]
+    },
+    {    
+        "ClubType": "ShortIron",
+        "Clubs": [
+    
+            "BeginnerShortIron",
+            "Apache",
+            "Kingfisher",
+            "Runner",
+            "Thorn",
+            "Hornet",
+            "Claw",
+            "Falcon"
+        ]
+    },
+    {
+        "ClubType": "Wedge",
+        "Clubs":[
+            "BeginnerPitcher",
+            "Dart",
+            "Firefly",
+            "Boomerang",
+            "Down-in-One",
+            "Skewer",
+            "Endbringer",
+            "Rapier"
+            ]
+    },
+    {
+        "ClubType": "RoughIron",
+        "Clubs":[
+            "BeginnerRoughIron",
+            "Roughcutter",
+            "Junglist",
+            "Machette",
+            "OffRoader",
+            "Razor",
+            "Amazon",
+            "Nirvana"
+            ]
+
+    },
+    {
+        "ClubType": "SandWedge",
+        "Clubs":[
+            "BeginnerSandWedge",
+            "DesertStorm",
+            "Sahara",
+            "SandLizard",
+            "Castaway",
+            "Malibu",
+            "Houdini",
+            "Spitfire"
+            ]
+
+    }
+]
