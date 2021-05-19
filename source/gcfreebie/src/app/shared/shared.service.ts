@@ -2,21 +2,33 @@ import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable, throwError } from "rxjs";
 import { catchError, tap} from 'rxjs/operators'
-import { IClubType } from '../shared/clubdata';
+import { IClubData, IClubType } from '../shared/clubdata';
 
 @Injectable({ providedIn: 'root'})
 export class clubService {
     private clubTypeUrl = 'assets/data/clubtypes.json';
     constructor(private http: HttpClient){}
 
-    getClubTypes() : Observable<IClubType[]> {
-        
+    getClubTypes() : Observable<IClubType[]> {        
         return this.http.get<IClubType[]>(this.clubTypeUrl).pipe(
-        tap(data => console.log('All: ', JSON.stringify(data)))
+        tap(data => console.log('Types All: ', JSON.stringify(data)))
         , catchError(this.handleError)
+        );       
+    }
 
+    getClubList(clubType: string) : Observable<string[]> {        
+      return this.http.get<string[]>('assets/data/' + clubType.toLowerCase() + '.json').pipe(
+      tap(data => console.log('Types All: ', JSON.stringify(data)))
+      , catchError(this.handleError)
+      );
+    }
+
+
+    getClubData(clubname: string) : Observable<IClubData[]> {
+      return this.http.get<IClubData[]>('assets/data/clubs/'+ clubname +'.json').pipe(
+        tap(data => console.log('Data All: ', JSON.stringify(data)))
+        , catchError(this.handleError)
         );
-       
     }
 
     private handleError(err: HttpErrorResponse): Observable<never> {

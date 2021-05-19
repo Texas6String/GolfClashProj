@@ -2,15 +2,29 @@
     <div class='card-header' >
     <div class='col-md-8'>
         <div class='row'>
-        <div class='col-md-4'><div class='picker-header'>Choose Club Type</div></div>
-        <div class='col-md-4'></div><div class='picker-header'>Choose Club</div></div>
-        </div>
 
+            <div class='col-md-4'><div class='picker-header'>Choose Club Type</div></div>
+
+            <div class='col-md-4'><div class='picker-header'>Choose Club</div></div>
+        </div>            
+        <div class='row'>
+            <div class='col-md-4'>
+                 <select (change)="clubTypeChanged($event)">
+                    <option *ngIf='noTypeSelected' >Select a Club Type</option>
+                    <option *ngFor="let clubType of clubTypeList" [value]="clubType?.ClubType" > {{clubType?.DisplayName}}</option>
+                </select> 
+            </div>
+            <div class='col-md-4'>
+                <select (change)="clubChanged($event)">
+                    <option *ngFor="let club of clubList"  > {{club}}</option>
+                </select> 
+            </div>
+        </div>
     </div>
 
 
     <div class='card-body'>
-        <div class='row' *ngIf='clubTypeList'>
+<!--         <div class='row' *ngIf='clubTypeList'>
             <table>
                 <thead><div>Club Types</div></thead>
                 <tbody>
@@ -19,7 +33,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div> 
+        </div> --> 
 
     </div>
 </div>
