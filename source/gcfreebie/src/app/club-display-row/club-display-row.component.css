@@ -1,0 +1,22 @@
+.club-detail-row-value
+{
+    background-color: lightgreen;
+}
+
+.club-detail-row-bg
+{
+    background-color: whitesmoke;
+}
+
+.club-detail-table-bar
+{
+    width: 100px; 
+    height: 10px; 
+    margin-top: 4px;
+    border-style:solid;
+    border-top-color:grey;
+    border-right-color:lightgrey;
+    border-bottom-color: lightgrey;
+    border-left-color: grey;
+    border-width: 2px;
+}
