@@ -1,8 +1,8 @@
-import {  AfterViewInit, Component, OnInit } from '@angular/core';
+import {  Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { clubService } from "../shared/shared.service";
 import { IClubType, IClubData } from "../shared/clubdata";
 import { Observable,Subscription } from 'rxjs';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http'
+//import { HttpClient, HttpErrorResponse } from '@angular/common/http'
 //import { Subscription } from 'rxjs/internal/Subscription';
 
 @Component({
@@ -16,12 +16,13 @@ export class ClubPickerComponent implements OnInit {
   clubTypeList: IClubType[]=[];
   clubList: string[];
   clubData: IClubData[]=[];
-  selectedClubData; IClubData;
-  selectedCLubName; string;
+  selectedClubData: IClubData;
+
+  selectedCLubName: string;
 
   noTypeSelected: boolean = true;
 
-
+  @Output() changeClub: EventEmitter<IClubData> = new EventEmitter();
 
 
   club: string = "";
@@ -46,37 +47,9 @@ export class ClubPickerComponent implements OnInit {
         },
       error: err => this.errorMessage = err
       })
-
-      this.csub = this.clubSvc.getClubData(this.club.toLowerCase()).subscribe(
-        {
-          next: data =>  {
-            this.clubData = data;          
-          },
-        error: err => this.errorMessage = err
-        })
       
-
-    
   }
 
-/*   ngAfterViewInit(): void {
-    console.log('clubTypeList.length: ' + this.clubTypeList.length);
-    for (let i = 0; i < this.clubTypeList.length; i++) {
-      this.clubTypes[i] = this.clubTypeList[i].ClubType;
-      console.log(this.clubTypes[i]);}
-
-  } */
-
-  /* ngAfterContentChecked(): void { */
-
-    /* console.log('clubTypeList.length: ' + this.clubTypeList.length);
-    if (this.clubTypeList.length > 0 && this.clubTypes.length == 0){
-    for (let i = 0; i < this.clubTypeList.length; i++) {
-      this.clubTypes[i] = this.clubTypeList[i].ClubType;
-      console.log(this.clubTypes[i]);
-    }} */
-
-  /* } */
 
   clubTypeChanged(e): void {
 
@@ -94,8 +67,9 @@ export class ClubPickerComponent implements OnInit {
 
   clubChanged(e): void {
 
-    console.log(e.target.value);
-
+    console.log("Club Selected: "+e.target.value);
+    
+    this.changeClub.emit(this.selectedClubData);
   }
 
 }

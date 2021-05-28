@@ -1,4 +1,82 @@
 
-<div class='club-display-icon'  style='background-image: url({{bgURL}})'>
-    <img src='../../assets/images/clubs/{{clubName}}.png' width='38px' height='38px' style='margin: 6px;'/>
-</div> 
+
+<div class='container'>
+    <div class="club-display-card">
+        <div class='row'>
+
+            <div class='col-md-3'>
+                <div class='club-display-icon'  style='background-image: url({{bgURL}})'>
+                    <img class='club-display-img' src={{imgSRC}} />
+                </div> 
+            </div>
+            <div class='col-md-8'>
+                <div class='club-display-clubname'>{{clubData.DisplayName}}</div>
+            </div>
+            <!-- <div class='col'></div> -->
+        </div>
+
+
+        <div class='club-display-header'>
+            <div class='row'>
+                <div class='col'>                    
+                        <div class='club-display-dataline'>{{clubData.ClubType}} - {{clubData.ClubRarity}}</div>                    
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col'>
+                    <div class='club-display-dataline'>Tour {{clubData.Tour.toString()}}</div>
+                </div>
+            </div >
+        </div>
+
+        <div class='club-display-stats'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='club-display-dataline'>Level</div>
+                </div>
+                <div class='col'>
+                    <div class='club-display-dataline'>{{clubDetail.Level.toString()}}</div>
+                </div>
+                <div class='col'><div class='club-display-dataline'></div></div>
+            </div >
+
+            <div class='row'>
+                <div class='col'>
+                    <div class='club-display-dataline'>Power</div>
+                </div>
+                <div class='col'>
+                    <div class='club-display-dataline'>{{clubDetail.Power.toString()}}</div>
+                </div>
+                <div class='col'><div class='club-display-dataline'></div></div>
+            </div >            
+
+            <app-club-display-row [label]='lblAccuracy' [value]='clubDetail.Accuracy.toString()' [numDisplay]='clubDetail.Accuracy.toString()'></app-club-display-row>
+
+            <app-club-display-row [label]='lblTopSpin' [value]='clubDetail.TopSpin.toString()' [numDisplay]='clubDetail.TopSpin.toString()'></app-club-display-row>
+
+            <app-club-display-row [label]='lblBackSpin' [value]='clubDetail.BackSpin.toString()' [numDisplay]='clubDetail.BackSpin.toString()'></app-club-display-row>
+
+            <app-club-display-row [label]='lblCurl' [value]='clubDetail.Curl.toString()' [numDisplay]='clubDetail.Curl.toString()'></app-club-display-row>
+
+            <app-club-display-row [label]='lblBallGuide' [value]='pctBallGuide.toString()' [numDisplay]='clubDetail.BallGuide.toString()'></app-club-display-row>
+        </div>
+<!--         <div class='row'>
+            <div class='col'>
+                <div class='club-display-dataline'>Club Rarity: {{clubData.ClubRarity}}</div>
+            </div>
+        </div>
+    Level:10,
+      Power:172,
+      Accuracy:100,
+      TopSpin:68,
+      BackSpin:73,
+      Curl:95,
+      BallGuide:4.5,
+      Distance:232.2,
+      DistanceTS:263.8-->
+
+        <div class='row'>
+            <div class='col'></div>
+        </div>
+    </div>
+</div>

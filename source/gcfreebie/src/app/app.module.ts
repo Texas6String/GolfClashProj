@@ -16,6 +16,7 @@ import { ClubDisplayComponent } from './club-display/club-display.component';
 import { ClubPickerComponent } from './club-picker/club-picker.component';
 
 import {clubService} from './shared/shared.service';
+import { ClubDisplayRowComponent } from './club-display-row/club-display-row.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {clubService} from './shared/shared.service';
     ToolsComponent,
     WelcomeComponent,
     ClubDisplayComponent,
-    ClubPickerComponent
+    ClubPickerComponent,
+    ClubDisplayRowComponent
   ],
   imports: [
     BrowserModule,

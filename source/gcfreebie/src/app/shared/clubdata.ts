@@ -31,3 +31,10 @@ export interface IClubType
     DisplayName: string;
 
 }
+
+export interface IClubDisp
+{
+    ClubName: string;
+    DisplayName: string;
+
+}

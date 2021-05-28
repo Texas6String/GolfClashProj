@@ -7,6 +7,7 @@ import { IClubData, IClubType } from '../shared/clubdata';
 @Injectable({ providedIn: 'root'})
 export class clubService {
     private clubTypeUrl = 'assets/data/clubtypes.json';
+    
     constructor(private http: HttpClient){}
 
     getClubTypes() : Observable<IClubType[]> {        
@@ -16,7 +17,8 @@ export class clubService {
         );       
     }
 
-    getClubList(clubType: string) : Observable<string[]> {        
+    getClubList(clubType: string) : Observable<string[]> {  
+      
       return this.http.get<string[]>('assets/data/' + clubType.toLowerCase() + '.json').pipe(
       tap(data => console.log('Types All: ', JSON.stringify(data)))
       , catchError(this.handleError)
@@ -24,8 +26,8 @@ export class clubService {
     }
 
 
-    getClubData(clubname: string) : Observable<IClubData[]> {
-      return this.http.get<IClubData[]>('assets/data/clubs/'+ clubname +'.json').pipe(
+    getClubData(clubname: string) : Observable<IClubData> {
+      return this.http.get<IClubData>('assets/data/clubs/'+ clubname.toLowerCase() +'.json').pipe(
         tap(data => console.log('Data All: ', JSON.stringify(data)))
         , catchError(this.handleError)
         );

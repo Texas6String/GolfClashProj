@@ -1,8 +1,66 @@
 .club-display-icon
 {
-
     width: 50px;
     height: 50px;
-    background-image: url("../../assets/images/club-icon-bg-common.png");
     background-size: 50px;
+    margin: 4px;
+}
+
+.club-display-img
+{
+
+    width: 38px;
+    height: 38px;
+    margin: 6px;
+}
+
+.club-display-clubname
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-family: Lucky;
+    font-size: 20px;
+    text-align: left;
+}
+
+.club-display-dataline
+{
+    margin-left: 20px;
+    font-family: Lucky;
+    font-size: 12px;
+}
+
+.club-display-card
+{
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: lightgoldenrodyellow;
+    border-left-color: lightgoldenrodyellow;
+    border-bottom-color: darkgoldenrod;
+    border-right-color: darkgoldenrod;
+    
+
+    width: 300px;
+    height: 228px;
+}
+
+.club-display-header
+{
+    background-color: lightskyblue;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.club-display-stats{
+    background-color: aliceblue;
+    margin: 4px;
+}
+
+.club-display-stats-name
+{
+
+    width: 80px;
 }
